@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Image from 'next/image';
 import { urlFor,client } from 'libs/client';
 import { AiFillStar,AiOutlineMinus,AiOutlineStar,AiOutlinePlus } from 'react-icons/ai';
 import { Product } from 'components';

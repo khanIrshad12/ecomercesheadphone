@@ -1,7 +1,7 @@
 import {useEffect} from 'react'
 import { useStateContext } from 'context/StateContext';
 import Link from 'next/link';
-import { FireWorks } from 'libs/utils';
+
 
 import {BsBagCheckFill} from 'react-icons/bs'
 const success = () => {
@@ -12,7 +12,7 @@ const success = () => {
         setCartItems([]);
         setTotlePrice(0);
         setTotalQuantities(0);
-        FireWorks()
+       
     },[])
   return (
     <div className='success-wrapper'>
